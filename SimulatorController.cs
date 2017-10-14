@@ -21,7 +21,7 @@ namespace RoadRace
             _simluatedData.Start();
 
             // Let the simulator run for 3 minutes
-            Thread.Sleep(180000);
+            Thread.Sleep(18000);
 
             _simluatedData.Stop();
         }
