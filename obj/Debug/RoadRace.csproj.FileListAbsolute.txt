@@ -1,0 +1,12 @@
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\RoadRace.exe.config
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\RoadRace.exe
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\RoadRace.pdb
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\EntityFramework.dll
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\Newtonsoft.Json.dll
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\EntityFramework.xml
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\bin\Debug\Newtonsoft.Json.xml
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\obj\Debug\RoadRace.csprojResolveAssemblyReference.cache
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\obj\Debug\RoadRace.exe
+C:\Users\benja\OneDrive\Documentos\GitHub\CS5700\RoadRace\RoadRace\obj\Debug\RoadRace.pdb
