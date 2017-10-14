@@ -8,12 +8,14 @@ namespace RoadRace
 {
     class ComparisonObserver : Observer
     {
-        public Athlete athlete { get; set; }
-        public Athlete athlete1 { get; set; }
-        public void Update(Subject s)
+        private Athlete athlete;
+        private Athlete athlete1;
+        public override void Update(Subject s)
         {
-            Console.Write(athlete.bibNumber.ToString() + athlete.regProf.ToString() + "\n");
-            Console.Write(athlete1.bibNumber.ToString() + athlete1.regProf.ToString() + "\n");            
+            athlete = athletesBeingObserved[0];
+            athlete1 = athletesBeingObserved[1];
+            Console.Write(athlete.bibNumber.ToString() + " "+ athlete.regProf.firstName + athlete.regProf.lastName + athlete.regProf.gender + athlete.regProf.age.ToString() + "\n");
+            Console.Write(athlete1.bibNumber.ToString() + " "+ athlete1.regProf.firstName + athlete1.regProf.lastName + athlete1.regProf.gender + athlete1.regProf.age.ToString() + "\n");            
         }
     }
 }

@@ -11,7 +11,7 @@ namespace RoadRace
         private readonly Dictionary<Int32, Athlete> _athletesBeingObserved = new Dictionary<int, Athlete>();
         private readonly object _myLock = new object();
         protected List<Athlete> athletesBeingObserved { get { return _athletesBeingObserved.Values.ToList(); } }
-        public void Update(Subject s)
+        public void AddObserver(Subject s)
         {
             Athlete athlete = s as Athlete;
             if (athlete != null)
@@ -23,8 +23,11 @@ namespace RoadRace
                     else
                         _athletesBeingObserved[athlete.bibNumber] = athlete;
                 }
+                Update(athlete);
             }
         }
+
+        public virtual void Update(Subject s) { }
     }
     
     

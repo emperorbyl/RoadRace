@@ -8,11 +8,12 @@ namespace RoadRace
 {
     public class GPSObserver : Observer
     {
-        public void Update(Subject s)
+        public override void Update(Subject s)
         {
+
             athletesBeingObserved.Sort();
-            foreach (var athlete in athletesBeingObserved)
-                Console.Write(athlete.bibNumber);
+            foreach (var athl in athletesBeingObserved)
+                Console.Write(athl.bibNumber.ToString() + "\n");
         }
     }
 }

@@ -10,12 +10,15 @@ namespace RoadRace
     public class ListObserver : Observer
     {
         public virtual string font { get; set; }
-        public virtual ConsoleColor color { get; set; }
-        public virtual void Update(Subject s)
+        public virtual ConsoleColor color { get { return ConsoleColor.White; } set { color = value; } }
+        public virtual void Font(Subject s) { }
+        public virtual void Color(Subject s) { }
+        public override void Update(Subject s)
         {
-            foreach (var athlete in athletesBeingObserved)
+
+            foreach (var ath in athletesBeingObserved)
             {
-                Console.Write(athlete.ToString(), font, color);
+                Console.Write(ath.bibNumber.ToString() + " " + ath.regProf.firstName + ath.regProf.lastName + ath.regProf.gender + ath.regProf.age.ToString(), font, color);
                 
             }
         }

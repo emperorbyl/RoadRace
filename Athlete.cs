@@ -10,5 +10,12 @@ namespace RoadRace
     {
         public int bibNumber { get; set; }
         public RegistrationProfile regProf = new RegistrationProfile();
+        public Athlete(int bib, RegistrationProfile regProg)
+        {
+            bibNumber = bib;
+            regProf = regProg;
+        }
+        public Athlete()
+        { }
     }
 }

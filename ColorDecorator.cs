@@ -8,6 +8,10 @@ namespace RoadRace
 {
     class ColorDecorator : ListObserverDecorator
     {
+        public override void Color(Subject s)
+        {
+            ChangeColor(s);
+        }
         private void ChangeColor(object sender)
         {
             if (decoratedList.color == ConsoleColor.White)

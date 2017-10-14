@@ -32,7 +32,7 @@ namespace RoadRace
             lock (_myLock)
             {
                 foreach (Observer observer in _subscribers)
-                    observer.Update(Clone());
+                    observer.AddObserver(Clone());
             }
         }
         public virtual Subject Clone()

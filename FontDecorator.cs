@@ -9,6 +9,10 @@ namespace RoadRace
 {
     public class FontDecorator : ListObserverDecorator
     {
+        public override void Font(Subject s)
+        {
+            ChangeFont(s);
+        }
         public void ChangeFont(object sender)
         {
             if (decoratedList.font == "Times New Roman")
