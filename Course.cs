@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class Course
+    public class Course
     {
         public string name { get; set; }
         public double totalDistance { get; set; }

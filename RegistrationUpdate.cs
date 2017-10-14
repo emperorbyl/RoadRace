@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class RegistrationUpdate : AthleteUpdate
+    public class RegistrationUpdate : AthleteUpdate
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class ListObserverDecorator : ListObserver
+    public class ListObserverDecorator : ListObserver
     {
         public ListObserver decoratedList { get; set; }
         public override string font { get { return decoratedList.font; } set { decoratedList.font = value; } }

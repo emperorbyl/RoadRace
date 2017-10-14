@@ -7,7 +7,7 @@ using System.IO;
 
 namespace RoadRace
 {
-    class ListObserver : Observer
+    public class ListObserver : Observer
     {
         public virtual string font { get; set; }
         public virtual ConsoleColor color { get; set; }

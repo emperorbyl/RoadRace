@@ -15,7 +15,7 @@ namespace RoadRace
 
             public string InputFilename { get; set; }
             public IAthleteUpdateHandler Handler { get; set; }
-            public int SleepTimeForSimulatedSecond { get; set; } = 1000;
+            public int SleepTimeForSimulatedSecond { get; set; } = 10;
 
             public void Start()
             {

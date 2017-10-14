@@ -9,6 +9,6 @@ namespace RoadRace
     public class Athlete : Subject
     {
         public int bibNumber { get; set; }
-        public RegistrationProfile regProf { get; set; }
+        public RegistrationProfile regProf = new RegistrationProfile();
     }
 }

@@ -12,5 +12,12 @@ namespace RoadRace
         public string lastName { get; set; }
         public string gender { get; set; }
         public int age { get; set; }
+        public RegistrationProfile()
+        {
+            firstName = "";
+            lastName = "";
+            gender = "";
+            age = 0;
+        }
     }
 }

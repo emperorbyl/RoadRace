@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class DataProcessor : IAthleteUpdateHandler
+    public class DataProcessor : IAthleteUpdateHandler
     {
         public void ProcessUpdate(AthleteUpdate updateMessage)
         {
             // TODO: Do something to process the update message, depending on the concrete type of message
             // TODO: Note that the console write line does below here
+            AthleteUpdate.Create(updateMessage.ToString());
+            
             Console.WriteLine(updateMessage.ToString());
         }
     }

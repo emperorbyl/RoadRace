@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class DidNotStartUpdate : AthleteUpdate
+    public class DidNotStartUpdate : AthleteUpdate
     {
         public DidNotStartUpdate() : base(AthleteRaceStatus.DidNotStart) { }
 

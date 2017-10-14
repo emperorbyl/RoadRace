@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class LocationUpdate : AthleteUpdate
+    public class LocationUpdate : AthleteUpdate
     {
         public double LocationOnCourse { get; set; }
 

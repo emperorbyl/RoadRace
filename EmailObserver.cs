@@ -7,7 +7,7 @@ using System.Net.Mail;
 
 namespace RoadRace
 {
-    class EmailObserver : Observer
+    public class EmailObserver : Observer
     {
         public void Update(Subject s)
         {

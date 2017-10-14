@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace RoadRace
 {
-    class FontDecorator : ListObserverDecorator
+    public class FontDecorator : ListObserverDecorator
     {
         public void ChangeFont(object sender)
         {

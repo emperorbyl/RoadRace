@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class RaceEvent
+    public class RaceEvent
     {
         public string title { get; set;}
         public DateTime startTime { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    interface IRaceDataSource
+    public interface IRaceDataSource
     {
         string InputFilename { get; set; }
         IAthleteUpdateHandler Handler { get; set; }

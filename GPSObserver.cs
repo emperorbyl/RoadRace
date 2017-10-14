@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class GPSObserver : Observer
+    public class GPSObserver : Observer
     {
         public void Update(Subject s)
         {

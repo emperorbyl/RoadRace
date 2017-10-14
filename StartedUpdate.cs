@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoadRace
 {
-    class StartedUpdate : AthleteUpdate
+    public class StartedUpdate : AthleteUpdate
     {
         public DateTime OfficialStartTime { get; set; }
 
